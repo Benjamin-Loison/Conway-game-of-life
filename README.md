@@ -4,3 +4,5 @@ This cellular automaton is very interesting as I will state Stephen Wolfram "How
 Furthermore here the first interesting point is the comparaison between C++ and the same algorithm done in Python.
 
 The C++ algorithm requires SDL2 library.
+
+![alt text](https://github.com/Benjamin-Loison/Conway-game-of-life/raw/master/conway game of life.jpg)
