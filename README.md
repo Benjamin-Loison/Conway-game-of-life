@@ -5,4 +5,4 @@ Furthermore here the first interesting point is the comparaison between C++ and 
 
 The C++ algorithm requires SDL2 library.
 
-![alt text](https://github.com/Benjamin-Loison/Conway-game-of-life/raw/master/conway game of life.jpg)
+![alt text](https://github.com/Benjamin-Loison/Conway-game-of-life/raw/master/conway%20game%20of%20life.jpg)
