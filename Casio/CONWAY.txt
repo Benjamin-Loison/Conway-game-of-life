@@ -1,0 +1,97 @@
+"Need new party ? (0/)":?->P
+
+If P
+Then 
+
+"Size x":?->Q
+"Size y":?->R
+
+{R,Q}->Dim Mat A
+{R,Q}->Dim Mat B
+
+"Gen Pt/f (Pt/f)":?->G
+
+If G<1
+Then 
+
+For 1->W To R
+For 1->V To Q
+RanInt#(0,(1/G)-1)=0=>1->Mat B[W,V]
+Next
+Next
+
+Else 
+
+For 1->θ To G
+1->Mat B[RanInt#(1,R),RanInt#(1,Q)]
+Next
+
+IfEnd
+
+Else 
+
+Dim Mat A->List 1
+List 1[1]->R
+List 1[2]->Q
+
+IfEnd
+
+Int (127/)->I
+Int (63/)->J
+
+Min({I,J})->S
+
+AxesOff
+ViewWindow 1,127,1,1,63,1
+
+While 1
+
+Mat B->Mat A
+
+Cls
+For 1->J To R
+For 1->I To Q
+
+If Mat A[J,I]
+Then 
+
+For (J-1)S->H To JS
+IS->G
+F-Line G,H,G+S,H
+Next
+
+IfEnd
+
+Next
+Next
+
+{R,Q}->Dim Mat B
+
+For 1->J To R
+For 1->I To Q
+
+0->C
+
+For I-1->M To I+1
+For J-1->N To J+1
+
+If (N!=J Or M!=I) And 0<N And N<=R And 0<M And M<=Q
+Then 
+
+If Mat A[N,M]
+Then Isz C
+IfEnd
+IfEnd
+
+Next
+Next
+
+If Mat A[J,I]
+Then (C=2 Or C=3)=>1->Mat B[J,I]
+Else C=3=>1->Mat B[J,I]
+IfEnd
+
+Next
+Next
+
+WhileEnd
