@@ -1,5 +1,5 @@
 # Conway game of life
-This cellular automaton is very interesting as I will state Stephen Wolfram "How basic rules could generate very complex systems"
+This cellular automaton is very interesting as I will quote Stephen Wolfram "How basic rules could generate very complex systems"
 
 Furthermore here the first interesting point is the comparaison between C++ and the same algorithm done in Python.
 
