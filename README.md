@@ -1,4 +1,6 @@
 # Conway game of life
+![example workflow](https://github.com/Benjamin-Loison/Conway-game-of-life/actions/workflows/cpp.yml/badge.svg)
+
 This cellular automaton is very interesting as I will quote Stephen Wolfram "How basic rules could generate very complex systems"
 
 Furthermore here the first interesting point is the comparaison between C++ and the same algorithm done in Python.
