@@ -3,7 +3,7 @@
 #include <ctime>
 #include <sys/time.h>
 //#include <windows.h>
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #define TABLE_LINES WINDOW_HEIGHT // or cst
 #define TABLE_COLUMNS WINDOW_WIDTH
 #define WINDOW_WIDTH 1900
