@@ -14,4 +14,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: script
-      run: sudo apt install -u libsdl2-dev && cd C++ && g++ main.cpp -lSDL2 -o main
+      run: sudo apt update && sudo apt install -u libsdl2-dev && cd C++ && g++ main.cpp -lSDL2 -o main
