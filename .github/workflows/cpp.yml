@@ -14,4 +14,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: script
-      run: cd C++ && ls
+      run: cd C++ && cat /etc/os-release
