@@ -15,5 +15,8 @@ jobs:
     - uses: actions/checkout@v2
     - run: sudo apt update
     - run: sudo apt install -y libsdl2-dev
-    - run: cd C++
-    - run: g++ main.cpp -lSDL2 -o main
+    - run: cd C++ && g++ main.cpp -lSDL2 -o main
+    - uses: actions/upload-artifact@v2
+      with:
+        name: executable
+        path: C++/main
