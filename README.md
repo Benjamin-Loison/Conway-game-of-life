@@ -1,4 +1,4 @@
-# Conway game of life
+# Conway's game of life
 [![Linux](https://github.com/Benjamin-Loison/Conway-game-of-life/actions/workflows/cpp.yml/badge.svg)](https://github.com/Benjamin-Loison/Conway-game-of-life/actions/workflows/cpp.yml)
 
 This cellular automaton is very interesting as I will quote Stephen Wolfram "How basic rules could generate very complex systems"
